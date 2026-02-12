@@ -244,6 +244,11 @@ async function importSeedData() {
     author: ['find', 'findOne'],
     global: ['find', 'findOne'],
     about: ['find', 'findOne'],
+    project: ['find', 'findOne'],
+    service: ['find', 'findOne'],
+    'team-member': ['find', 'findOne'],
+    page: ['find', 'findOne'],
+    homepage: ['find', 'findOne'],
   });
 
   // Create all entries
